@@ -69,6 +69,33 @@ class Elemento extends StatelessWidget {
   }
 }
 
+class ElementBack extends StatelessWidget {
+  const ElementBack({
+    Key? key,
+    this.color = Colors.blueAccent,
+    required this.descripcion,
+  }) : super(key: key);
+
+  final Color color;
+  final String descripcion;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 150,
+      width: 100,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(5),
+        color: color,
+      ),
+      child: Text(
+        descripcion,
+        textAlign: TextAlign.center,
+      ),
+    );
+  }
+}
+
 class _ElementoHeader extends StatelessWidget {
   final String atomicSymbol;
   final List<Widget> symbols;

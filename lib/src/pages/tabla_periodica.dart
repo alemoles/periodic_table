@@ -16,41 +16,32 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child: Column(
-      children: [
-        GestureDetector(
-          onTap: () => controller.flipCard(),
-          child: _FlipCardWidget(
-            controller: controller,
-            front: SvgPicture.asset(
-              'assets/svgs/sun.svg',
-            ),
-            back: SvgPicture.asset(
-              'assets/svgs/sun.svg',
+      child: Column(
+        children: [
+          GestureDetector(
+            onTap: () => controller.flipCard(),
+            child: _FlipCardWidget(
+              controller: controller,
+              front: Elemento(
+                atomicNumber: 1,
+                atomicSymbol: "H",
+                name: "Hidrogeno",
+                widget: "Sol y Estrellas",
+                image: SvgPicture.asset('assets/svgs/sun.svg'),
+                symbols: [
+                  SvgPicture.asset(
+                    'assets/svgs/person.svg',
+                  ),
+                ],
+              ),
+              back: ElementBack(
+                descripcion: "Hidrogeno",
+              ),
             ),
           ),
-        ),
-        ElevatedButton(
-          onPressed: () async {
-            await controller.flipCard();
-          },
-          child: Text('Flip'),
-        ),
-      ],
-    )
-        // Elemento(
-        //   atomicNumber: 1,
-        //   atomicSymbol: "H",
-        //   name: "Hidrogeno",
-        //   widget: "Sol y Estrellas",
-        //   image: SvgPicture.asset('assets/svgs/sun.svg'),
-        //   symbols: [
-        //     SvgPicture.asset(
-        //       'assets/svgs/person.svg',
-        //     ),
-        //   ],
-        // ),
-        );
+        ],
+      ),
+    );
   }
 }
 
@@ -76,10 +67,6 @@ class __FlipCardWidgetState extends State<_FlipCardWidget>
   @override
   void initState() {
     super.initState();
-
-    // WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
-    //   precacheImage(widget.front, context),
-    // });
     controller = AnimationController(
       vsync: this,
       duration: Duration(
@@ -128,7 +115,7 @@ class __FlipCardWidgetState extends State<_FlipCardWidget>
               ? widget.front
               : Transform(
                   transform: Matrix4.identity()
-                    ..rotateX(
+                    ..rotateY(
                       pi,
                     ),
                   alignment: Alignment.center,
