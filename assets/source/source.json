@@ -1,0 +1,54 @@
+{
+    "data": {
+        "first": [{
+                "atomicNumber": 1,
+                "atomicSymbol": "H",
+                "name": "Hidrogeno",
+                "widget": "Sol y Estrellas",
+                "imageURL": "assets/svgs/sun.svg",
+                "symbolsURL": ["assets/svgs/person.svg"],
+                "descripcion": "Hidrogeno descripcion",
+                "isRange": false,
+                "isRadioactive": false,
+                "color": ""
+            },
+            {
+                "atomicNumber": 2,
+                "atomicSymbol": "He",
+                "name": "Helio",
+                "widget": "Globos",
+                "imageURL": "assets/svgs/ballons.svg",
+                "symbolsURL": ["assets/svgs/cloud.svg"],
+                "descripcion": "Helio descripcion",
+                "isRange": false,
+                "isRadioactive": false,
+                "color": "f5f6f6"
+            }
+        ],
+        "second": [{
+                "atomicNumber": 3,
+                "atomicSymbol": "Li",
+                "name": "Litio",
+                "widget": "Pilas",
+                "imageURL": "assets/svgs/bateries.svg",
+                "symbolsURL": ["assets/svgs/solid.svg"],
+                "descripcion": "Litio descripcion",
+                "isRange": false,
+                "isRadioactive": false,
+                "color": "d8c2e0"
+            },
+            {
+                "atomicNumber": 10,
+                "atomicSymbol": "Ne",
+                "name": "Neon",
+                "widget": "Carteles luminosos",
+                "imageURL": "assets/svgs/ads.svg",
+                "symbolsURL": ["assets/svgs/cloud.svg"],
+                "descripcion": "Neon descripcion",
+                "isRange": false,
+                "isRadioactive": false,
+                "color": "fdaaaa"
+            }
+        ]
+    }
+}

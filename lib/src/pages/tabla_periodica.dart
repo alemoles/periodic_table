@@ -16,8 +16,30 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
+          GestureDetector(
+            onTap: () => controller.flipCard(),
+            child: _FlipCardWidget(
+              controller: controller,
+              front: Elemento(
+                atomicNumber: 1,
+                atomicSymbol: "H",
+                name: "Hidrogeno",
+                widget: "Sol y Estrellas",
+                image: SvgPicture.asset('assets/svgs/sun.svg'),
+                symbols: [
+                  SvgPicture.asset(
+                    'assets/svgs/person.svg',
+                  ),
+                ],
+              ),
+              back: ElementBack(
+                descripcion: "Hidrogeno",
+              ),
+            ),
+          ),
           GestureDetector(
             onTap: () => controller.flipCard(),
             child: _FlipCardWidget(
