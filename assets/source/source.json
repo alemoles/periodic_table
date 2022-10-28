@@ -32,7 +32,7 @@
             "atomicSymbol": "Li",
             "name": "Litio",
             "widget": "Pilas",
-            "imageURL": "assets/svgs/bateries.svg",
+            "imageURL": "assets/svgs/batteries.svg",
             "symbolsURL": [
                 "assets/svgs/solid.svg"
             ],
