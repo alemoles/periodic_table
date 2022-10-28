@@ -24,17 +24,39 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
     ).loadData();
   }
 
+  List<Widget> buildData(List<RowData> elements) {
+    final widgets = <Widget>[];
+    final rowData = <Widget>[];
+    for (int index = 0; index < elements.length; index++) {
+      rowData.add(
+        CardElement(
+          controller: controller,
+          data: elements[index],
+        ),
+      );
+      if (elements[index].atomicNumber == 2 ||
+          elements[index].atomicNumber == 10) {
+        widgets.add(
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: rowData.toList(),
+          ),
+        );
+        rowData.clear();
+      }
+    }
+    return widgets;
+  }
+
   @override
   Widget build(BuildContext context) {
     final elements = Provider.of<DataLayout>(context).elements;
     return Container(
       child: elements.isNotEmpty
-          ? Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          ? Column(
               children: [
-                CardElement(
-                  controller: controller,
-                  data: elements[0],
+                ...buildData(
+                  elements,
                 ),
               ],
             )

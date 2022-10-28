@@ -18,7 +18,7 @@
             "atomicSymbol": "He",
             "name": "Helio",
             "widget": "Globos",
-            "imageURL": "assets/svgs/ballons.svg",
+            "imageURL": "assets/svgs/balloons.svg",
             "symbolsURL": [
                 "assets/svgs/cloud.svg"
             ],
