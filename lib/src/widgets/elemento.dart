@@ -30,40 +30,46 @@ class Elemento extends StatelessWidget {
         borderRadius: BorderRadius.circular(5),
         color: color,
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          // Row inicial
-          _ElementoHeader(
-            atomicSymbol: atomicSymbol,
-            atomicNumber: atomicNumber,
-            symbols: symbols,
-          ),
-          // Nombre
-          SizedBox(
-            height: 2,
-          ),
-          Text(
-            name,
-            style: GoogleFonts.roboto(),
-          ),
-          SizedBox(
-            height: 5,
-          ),
-          // Image
-          Container(
-            height: 60,
-            child: image,
-          ),
-          // Widgets
-          SizedBox(
-            height: 5,
-          ),
-          Text(
-            widget,
-            textAlign: TextAlign.center,
-          ),
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(2.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            // Row inicial
+            _ElementoHeader(
+              atomicSymbol: atomicSymbol,
+              atomicNumber: atomicNumber,
+              symbols: symbols,
+            ),
+            // Nombre
+            SizedBox(
+              height: 2,
+            ),
+            Text(
+              name,
+              style: GoogleFonts.roboto(),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            // Image
+            Container(
+              height: 45,
+              child: image,
+            ),
+            // Widgets
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              widget,
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(
+              height: 5,
+            ),
+          ],
+        ),
       ),
     );
   }

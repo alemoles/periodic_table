@@ -1,5 +1,6 @@
 {
-    "data": [{
+    "data": [
+        {
             "atomicNumber": 1,
             "atomicSymbol": "H",
             "name": "Hidrogeno",
@@ -10,8 +11,8 @@
             ],
             "descripcion": "Hidrogeno descripcion",
             "isRange": false,
-            "isRadioactive": false,
-            "color": ""
+            "isRadioactive": false,            
+            "type": "H"
         },
         {
             "atomicNumber": 2,
@@ -24,8 +25,8 @@
             ],
             "descripcion": "Helio descripcion",
             "isRange": false,
-            "isRadioactive": false,
-            "color": "f5f6f6"
+            "isRadioactive": false,            
+            "type": "Noble Gases"
         },
         {
             "atomicNumber": 3,
@@ -38,22 +39,109 @@
             ],
             "descripcion": "Litio descripcion",
             "isRange": false,
-            "isRadioactive": false,
-            "color": "d8c2e0"
+            "isRadioactive": false,            
+            "type": "Alkali Metals"
+        },
+        {
+            "atomicNumber": 4,
+            "atomicSymbol": "Be",
+            "name": "Belirio",
+            "widget": "Esmeralda",
+            "imageURL": "assets/svgs/emerald.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Belirio descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Alkali Earth Metals"
+        },
+        {
+            "atomicNumber": 5,
+            "atomicSymbol": "B",
+            "name": "Boro",
+            "widget": "Equipo deportivo",
+            "imageURL": "assets/svgs/sports.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Boro descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals"
+        },
+        {
+            "atomicNumber": 6,
+            "atomicSymbol": "C",
+            "name": "Carbon",
+            "widget": "Moleculas de la vida",
+            "imageURL": "assets/svgs/bio.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Carbon descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals"
+        },
+        {
+            "atomicNumber": 7,
+            "atomicSymbol": "N",
+            "name": "Nitrógeno",
+            "widget": "Proteína",
+            "imageURL": "assets/svgs/muscles.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg",
+                "assets/svgs/person.svg"
+            ],
+            "descripcion": "Nitrógeno descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals"
+        },
+        {
+            "atomicNumber": 8,
+            "atomicSymbol": "O",
+            "name": "Oxígeno",
+            "widget": "Aire",
+            "imageURL": "assets/svgs/lungs.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg",
+                "assets/svgs/person.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Aire descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals"
+        },
+        {
+            "atomicNumber": 9,
+            "atomicSymbol": "F",
+            "name": "Flúor",
+            "widget": "Pasta de dientes",
+            "imageURL": "assets/svgs/toothbrush.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg"
+            ],
+            "descripcion": "Flúor descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Halogens"
         },
         {
             "atomicNumber": 10,
             "atomicSymbol": "Ne",
             "name": "Neon",
-            "widget": "Carteles luminosos",
-            "imageURL": "assets/svgs/ads.svg",
+            "widget": "Neon Laser",
+            "imageURL": "assets/svgs/ion-cannon.svg",
             "symbolsURL": [
                 "assets/svgs/cloud.svg"
             ],
             "descripcion": "Neon descripcion",
             "isRange": false,
-            "isRadioactive": false,
-            "color": "fdaaaa"
+            "isRadioactive": false,            
+            "type": "Noble Gases"
         }
     ]
 }

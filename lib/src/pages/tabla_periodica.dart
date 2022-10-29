@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:periodic_table/src/models/data_layout.dart';
 import 'package:periodic_table/src/models/row_data.dart';
+import 'package:periodic_table/src/utils/utils.dart';
 import 'package:periodic_table/src/widgets/elemento.dart';
 import 'package:periodic_table/src/widgets/flip_card.dart';
 import 'package:provider/provider.dart';
@@ -92,6 +93,9 @@ class CardElement extends StatelessWidget {
               data.symbolsUrl[0],
             ),
           ],
+          color: fromName(
+            data.type,
+          ),
         ),
         back: ElementBack(
           descripcion: data.descripcion,

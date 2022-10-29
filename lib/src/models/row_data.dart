@@ -11,7 +11,7 @@ class RowData {
     required this.descripcion,
     required this.isRange,
     required this.isRadioactive,
-    required this.color,
+    required this.type,
   });
 
   final int atomicNumber;
@@ -23,7 +23,7 @@ class RowData {
   final String descripcion;
   final bool isRange;
   final bool isRadioactive;
-  final String color;
+  final String type;
 
   factory RowData.fromJson(String str) => RowData.fromMap(json.decode(str));
 
@@ -41,7 +41,7 @@ class RowData {
         descripcion: json["descripcion"],
         isRange: json["isRange"],
         isRadioactive: json["isRadioactive"],
-        color: json["color"],
+        type: json["type"],
       );
 
   Map<String, dynamic> toMap() => {
@@ -56,6 +56,6 @@ class RowData {
         "descripcion": descripcion,
         "isRange": isRange,
         "isRadioactive": isRadioactive,
-        "color": color,
+        "type": type,
       };
 }
