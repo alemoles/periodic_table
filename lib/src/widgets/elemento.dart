@@ -42,30 +42,30 @@ class Elemento extends StatelessWidget {
               symbols: symbols,
             ),
             // Nombre
-            SizedBox(
+            const SizedBox(
               height: 2,
             ),
             Text(
               name,
               style: GoogleFonts.roboto(),
             ),
-            SizedBox(
+            const SizedBox(
               height: 5,
             ),
             // Image
-            Container(
+            SizedBox(
               height: 45,
               child: image,
             ),
             // Widgets
-            SizedBox(
+            const SizedBox(
               height: 5,
             ),
             Text(
               widget,
               textAlign: TextAlign.center,
             ),
-            SizedBox(
+            const SizedBox(
               height: 5,
             ),
           ],
