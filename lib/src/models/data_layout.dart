@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/material.dart';
 
 import 'package:periodic_table/src/models/data_mapping.dart';
@@ -5,14 +7,25 @@ import 'package:periodic_table/src/models/row_data.dart';
 import 'package:periodic_table/src/utils/utils.dart';
 
 class DataLayout extends ChangeNotifier {
-  var _elements = <RowData>[];
+  final _elements = SplayTreeMap<int, List<RowData>>();
 
-  List<RowData> get elements => _elements;
+  SplayTreeMap<int, List<RowData>> get elements => _elements;
 
   void loadData() async {
     final data = await getJson('assets/source/source.json');
     final dataMapping = DataMapping.fromJson(data);
-    _elements = dataMapping.data;
+
+    _elements.clear();
+    for (var element in dataMapping.data) {
+      if (_elements.containsKey(element.column)) {
+        _elements.update(element.column, (list) {
+          list.add(element);
+          return list;
+        });
+      } else {
+        _elements.putIfAbsent(element.column, () => [element]);
+      }
+    }
     notifyListeners();
   }
 }

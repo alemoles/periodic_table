@@ -25,26 +25,23 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
     ).loadData();
   }
 
-  List<Widget> buildData(List<RowData> elements) {
+  List<Widget> buildData(Map<int, List<RowData>> elements) {
     final widgets = <Widget>[];
-    final rowData = <Widget>[];
-    for (int index = 0; index < elements.length; index++) {
-      rowData.add(
-        CardElement(
-          controller: controller,
-          data: elements[index],
+
+    for (MapEntry<int, List<RowData>> item in elements.entries) {
+      widgets.add(
+        Column(
+          mainAxisAlignment: MainAxisAlignment.end,          
+          children: item.value
+              .map(
+                (element) => CardElement(
+                  controller: controller,
+                  data: element,
+                ),
+              )
+              .toList(),
         ),
       );
-      if (elements[index].atomicNumber == 2 ||
-          elements[index].atomicNumber == 10) {
-        widgets.add(
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: rowData.toList(),
-          ),
-        );
-        rowData.clear();
-      }
     }
     return widgets;
   }
@@ -54,7 +51,7 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
     final elements = Provider.of<DataLayout>(context).elements;
     return Container(
       child: elements.isNotEmpty
-          ? Column(
+          ? Row(
               children: [
                 ...buildData(
                   elements,

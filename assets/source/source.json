@@ -12,7 +12,8 @@
             "descripcion": "Hidrogeno descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "H"
+            "type": "H",
+            "column": 1
         },
         {
             "atomicNumber": 2,
@@ -26,7 +27,8 @@
             "descripcion": "Helio descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Noble Gases"
+            "type": "Noble Gases",
+            "column": 18
         },
         {
             "atomicNumber": 3,
@@ -40,7 +42,8 @@
             "descripcion": "Litio descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Alkali Metals"
+            "type": "Alkali Metals",
+            "column": 1
         },
         {
             "atomicNumber": 4,
@@ -54,7 +57,8 @@
             "descripcion": "Belirio descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Alkali Earth Metals"
+            "type": "Alkali Earth Metals",
+            "column": 2
         },
         {
             "atomicNumber": 5,
@@ -68,7 +72,8 @@
             "descripcion": "Boro descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Nonmetals"
+            "type": "Nonmetals",
+            "column": 13
         },
         {
             "atomicNumber": 6,
@@ -82,7 +87,8 @@
             "descripcion": "Carbon descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Nonmetals"
+            "type": "Nonmetals",
+            "column": 14
         },
         {
             "atomicNumber": 7,
@@ -97,7 +103,8 @@
             "descripcion": "Nitrógeno descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Nonmetals"
+            "type": "Nonmetals",
+            "column": 15
         },
         {
             "atomicNumber": 8,
@@ -113,7 +120,8 @@
             "descripcion": "Aire descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Nonmetals"
+            "type": "Nonmetals",
+            "column": 16
         },
         {
             "atomicNumber": 9,
@@ -127,7 +135,8 @@
             "descripcion": "Flúor descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Halogens"
+            "type": "Halogens",
+            "column": 17
         },
         {
             "atomicNumber": 10,
@@ -141,7 +150,8 @@
             "descripcion": "Neon descripcion",
             "isRange": false,
             "isRadioactive": false,            
-            "type": "Noble Gases"
+            "type": "Noble Gases",
+            "column": 18
         }
     ]
 }
