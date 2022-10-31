@@ -131,13 +131,14 @@ class _ElementoHeader extends StatelessWidget {
           ),
           Row(
             children: [
-              Container(
-                height: 15,
-                width: 15,
-                child: SvgPicture.asset(
-                  'assets/svgs/person.svg',
-                ),
-              ),
+              ...symbols
+              // Container(
+              //   height: 15,
+              //   width: 15,
+              //   child: SvgPicture.asset(
+              //     'assets/svgs/person.svg',
+              //   ),
+              // ),
             ],
           ),
           Padding(

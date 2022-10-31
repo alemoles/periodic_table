@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:periodic_table/src/models/data_layout.dart';
@@ -31,7 +33,7 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
     for (MapEntry<int, List<RowData>> item in elements.entries) {
       widgets.add(
         Column(
-          mainAxisAlignment: MainAxisAlignment.end,          
+          mainAxisAlignment: MainAxisAlignment.end,
           children: item.value
               .map(
                 (element) => CardElement(
@@ -75,6 +77,8 @@ class CardElement extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    log(data.symbolsUrl[0]);
+
     return GestureDetector(
       onTap: () => controller.flipCard(),
       child: FlipCardWidget(
@@ -84,10 +88,16 @@ class CardElement extends StatelessWidget {
           atomicSymbol: data.atomicSymbol,
           name: data.name,
           widget: data.widget,
-          image: SvgPicture.asset(data.imageUrl),
+          image: SvgPicture.asset(
+            data.imageUrl,
+          ),
           symbols: [
-            SvgPicture.asset(
-              data.symbolsUrl[0],
+            SizedBox(
+              height: 15,
+              width: 15,
+              child: SvgPicture.asset(
+                data.symbolsUrl[0],
+              ),
             ),
           ],
           color: fromName(

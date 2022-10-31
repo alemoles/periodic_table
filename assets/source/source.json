@@ -152,6 +152,133 @@
             "isRadioactive": false,            
             "type": "Noble Gases",
             "column": 18
+        },
+        {
+            "atomicNumber": 11,
+            "atomicSymbol": "Na",
+            "name": "Sodio",
+            "widget": "Sal",
+            "imageURL": "assets/svgs/salt.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/person.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Sodio descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Alkali Metals",
+            "column": 1
+        },
+        {
+            "atomicNumber": 12,
+            "atomicSymbol": "Mg",
+            "name": "Magnesio",
+            "widget": "Clorofila",
+            "imageURL": "assets/svgs/leaf.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Magnesio descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Alkali Earth Metals",
+            "column": 2
+        },
+        {
+            "atomicNumber": 13,
+            "atomicSymbol": "Al",
+            "name": "Aluminio",
+            "widget": "Aviones",
+            "imageURL": "assets/svgs/airplane.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Aluminio descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Poor Metals",
+            "column": 13
+        },
+        {
+            "atomicNumber": 14,
+            "atomicSymbol": "Si",
+            "name": "Silicio",
+            "widget": "Piedra, Arena y Suelo",
+            "imageURL": "assets/svgs/stones.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Silicio descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals",
+            "column": 14
+        },
+        {
+            "atomicNumber": 15,
+            "atomicSymbol": "P",
+            "name": "Fósforo",
+            "widget": "Bones",
+            "imageURL": "assets/svgs/bones.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Fósforo descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals",
+            "column": 15
+        },
+        {
+            "atomicNumber": 16,
+            "atomicSymbol": "S",
+            "name": "Azufre",
+            "widget": "Huevos",
+            "imageURL": "assets/svgs/eggs.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Azufre descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Nonmetals",
+            "column": 16
+        },
+        {
+            "atomicNumber": 17,
+            "atomicSymbol": "Cl",
+            "name": "Cloro",
+            "widget": "Piscinas",
+            "imageURL": "assets/svgs/swimming-pool.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg",
+                "assets/svgs/person.svg"
+            ],
+            "descripcion": "Cloro descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Halogens",
+            "column": 17
+        },
+        {
+            "atomicNumber": 18,
+            "atomicSymbol": "Ar",
+            "name": "Argon",
+            "widget": "Bombillas",
+            "imageURL": "assets/svgs/light-bulb.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg"
+            ],
+            "descripcion": "Argon descripcion",
+            "isRange": false,
+            "isRadioactive": false,            
+            "type": "Noble Gases",
+            "column": 18
         }
     ]
 }
