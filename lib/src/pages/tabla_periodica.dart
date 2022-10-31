@@ -77,8 +77,11 @@ class CardElement extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    log(data.symbolsUrl[0]);
-
+    final symbols = data.symbolsUrl.map(
+      (url) => _Symbol(
+        url: url,
+      ),
+    );
     return GestureDetector(
       onTap: () => controller.flipCard(),
       child: FlipCardWidget(
@@ -92,13 +95,7 @@ class CardElement extends StatelessWidget {
             data.imageUrl,
           ),
           symbols: [
-            SizedBox(
-              height: 15,
-              width: 15,
-              child: SvgPicture.asset(
-                data.symbolsUrl[0],
-              ),
-            ),
+            ...symbols,
           ],
           color: fromName(
             data.type,
@@ -106,6 +103,32 @@ class CardElement extends StatelessWidget {
         ),
         back: ElementBack(
           descripcion: data.descripcion,
+          color: fromName(
+            data.type,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _Symbol extends StatelessWidget {
+  const _Symbol({
+    Key? key,
+    required this.url,
+  }) : super(key: key);
+  final String url;
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(
+        horizontal: 1,
+      ),
+      child: SizedBox(
+        height: 15,
+        width: 15,
+        child: SvgPicture.asset(
+          url,
         ),
       ),
     );
