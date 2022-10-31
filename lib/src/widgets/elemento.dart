@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Elemento extends StatelessWidget {
@@ -131,14 +130,7 @@ class _ElementoHeader extends StatelessWidget {
           ),
           Row(
             children: [
-              ...symbols
-              // Container(
-              //   height: 15,
-              //   width: 15,
-              //   child: SvgPicture.asset(
-              //     'assets/svgs/person.svg',
-              //   ),
-              // ),
+              ...symbols             
             ],
           ),
           Padding(
