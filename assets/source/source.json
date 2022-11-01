@@ -11,7 +11,7 @@
             ],
             "descripcion": "Hidrogeno descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "H",
             "column": 1
         },
@@ -26,7 +26,7 @@
             ],
             "descripcion": "Helio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Noble Gases",
             "column": 18
         },
@@ -41,7 +41,7 @@
             ],
             "descripcion": "Litio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Alkali Metals",
             "column": 1
         },
@@ -56,7 +56,7 @@
             ],
             "descripcion": "Belirio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Alkali Earth Metals",
             "column": 2
         },
@@ -71,7 +71,7 @@
             ],
             "descripcion": "Boro descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 13
         },
@@ -86,7 +86,7 @@
             ],
             "descripcion": "Carbon descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 14
         },
@@ -102,7 +102,7 @@
             ],
             "descripcion": "Nitrógeno descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 15
         },
@@ -119,7 +119,7 @@
             ],
             "descripcion": "Aire descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 16
         },
@@ -134,7 +134,7 @@
             ],
             "descripcion": "Flúor descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Halogens",
             "column": 17
         },
@@ -149,7 +149,7 @@
             ],
             "descripcion": "Neon descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Noble Gases",
             "column": 18
         },
@@ -166,7 +166,7 @@
             ],
             "descripcion": "Sodio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Alkali Metals",
             "column": 1
         },
@@ -182,7 +182,7 @@
             ],
             "descripcion": "Magnesio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Alkali Earth Metals",
             "column": 2
         },
@@ -198,7 +198,7 @@
             ],
             "descripcion": "Aluminio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Poor Metals",
             "column": 13
         },
@@ -214,7 +214,7 @@
             ],
             "descripcion": "Silicio descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 14
         },
@@ -230,7 +230,7 @@
             ],
             "descripcion": "Fósforo descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 15
         },
@@ -245,7 +245,7 @@
             ],
             "descripcion": "Azufre descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Nonmetals",
             "column": 16
         },
@@ -261,7 +261,7 @@
             ],
             "descripcion": "Cloro descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
             "type": "Halogens",
             "column": 17
         },
@@ -276,7 +276,285 @@
             ],
             "descripcion": "Argon descripcion",
             "isRange": false,
-            "isRadioactive": false,            
+            "isRadioactive": false,
+            "type": "Noble Gases",
+            "column": 18
+        },
+        {
+            "atomicNumber": 19,
+            "atomicSymbol": "K",
+            "name": "Potasio",
+            "widget": "Frutas y vegetales",
+            "imageURL": "assets/svgs/fruits-vegetables.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/person.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Potasio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Alkali Metals",
+            "column": 1
+        },
+        {
+            "atomicNumber": 20,
+            "atomicSymbol": "Ca",
+            "name": "Calcio",
+            "widget": "Caracolas y huesos",
+            "imageURL": "assets/svgs/seashell.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/person.svg",
+                "assets/svgs/earth.svg"
+            ],
+            "descripcion": "Calcio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Alkali Earth Metals",
+            "column": 2
+        },
+        {
+            "atomicNumber": 21,
+            "atomicSymbol": "Sc",
+            "name": "Escandio",
+            "widget": "Bicicletas",
+            "imageURL": "assets/svgs/bicycle.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Escandio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 3
+        },
+        {
+            "atomicNumber": 22,
+            "atomicSymbol": "Ti",
+            "name": "Titanio",
+            "widget": "Aeroespacial",
+            "imageURL": "assets/svgs/rocket.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Titanio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 4
+        },
+        {
+            "atomicNumber": 23,
+            "atomicSymbol": "V",
+            "name": "Vanadio",
+            "widget": "Muelles",
+            "imageURL": "assets/svgs/truck.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Vanadio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 5
+        },
+        {
+            "atomicNumber": 24,
+            "atomicSymbol": "Cr",
+            "name": "Cromo",
+            "widget": "Acero inoxidable",
+            "imageURL": "assets/svgs/metal-bar-stainless-steel-construction.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Cromo descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 6
+        },
+        {
+            "atomicNumber": 25,
+            "atomicSymbol": "Mn",
+            "name": "Manganeso",
+            "widget": "Excavadoras",
+            "imageURL": "assets/svgs/excavator.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Manganeso descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 7
+        },
+        {
+            "atomicNumber": 26,
+            "atomicSymbol": "Fe",
+            "name": "Hierro",
+            "widget": "Estructuras de acero",
+            "imageURL": "assets/svgs/excavator.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/earth.svg",
+                "assets/svgs/magnet.svg"
+            ],
+            "descripcion": "Hierro descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 8
+        },
+        {
+            "atomicNumber": 27,
+            "atomicSymbol": "Co",
+            "name": "Cobalto",
+            "widget": "Imanes",
+            "imageURL": "assets/svgs/magnet-red.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/magnet.svg"
+            ],
+            "descripcion": "Cobalto descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 9
+        },
+        {
+            "atomicNumber": 28,
+            "atomicSymbol": "Ni",
+            "name": "Niquel",
+            "widget": "Monedas",
+            "imageURL": "assets/svgs/coins.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/magnet.svg"
+            ],
+            "descripcion": "Niquel descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 10
+        },
+        {
+            "atomicNumber": 29,
+            "atomicSymbol": "Cu",
+            "name": "Cobre",
+            "widget": "Cables electricos",
+            "imageURL": "assets/svgs/electric-plug.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Cobre descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 11
+        },
+        {
+            "atomicNumber": 30,
+            "atomicSymbol": "Zn",
+            "name": "Zinc",
+            "widget": "Instrumentos",
+            "imageURL": "assets/svgs/trumpet.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Zinc descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 12
+        },
+        {
+            "atomicNumber": 31,
+            "atomicSymbol": "Ga",
+            "name": "Galio",
+            "widget": "LEDs",
+            "imageURL": "assets/svgs/digital-clock.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Galio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 13
+        },
+        {
+            "atomicNumber": 32,
+            "atomicSymbol": "Ge",
+            "name": "Germanio",
+            "widget": "Electrónica de semiconductores",
+            "imageURL": "assets/svgs/microchip.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Germanio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 14
+        },
+        {
+            "atomicNumber": 33,
+            "atomicSymbol": "As",
+            "name": "Arsenico",
+            "widget": "Veneno",
+            "imageURL": "assets/svgs/poison-skull.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Arsenico descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Nonmetals",
+            "column": 15
+        },
+        {
+            "atomicNumber": 34,
+            "atomicSymbol": "Se",
+            "name": "Selenio",
+            "widget": "Fotocopiadoras",
+            "imageURL": "assets/svgs/copier.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Selenio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Nonmetals",
+            "column": 16
+        },
+        {
+            "atomicNumber": 35,
+            "atomicSymbol": "Br",
+            "name": "Bromo",
+            "widget": "Película de fotografía",
+            "imageURL": "assets/svgs/negative-film.svg",
+            "symbolsURL": [
+                "assets/svgs/red-liquid.svg"
+            ],
+            "descripcion": "Bromo descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Halogens",
+            "column": 17
+        },
+        {
+            "atomicNumber": 36,
+            "atomicSymbol": "Kr",
+            "name": "Criptón",
+            "widget": "Linternas",
+            "imageURL": "assets/svgs/flashlight.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg"
+            ],
+            "descripcion": "Criptón descripcion",
+            "isRange": false,
+            "isRadioactive": false,
             "type": "Noble Gases",
             "column": 18
         }

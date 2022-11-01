@@ -7,3 +7,4 @@ const nobleGases = Color(0xfffdaaaa);
 const noMetals = Color(0xffffe393);
 const halogens = Color(0xfffbd1ad);
 const poorMetals = Color(0xffcde6ae);
+const transitionMetals = Color(0xffafe1c1);

@@ -18,6 +18,8 @@ Color fromName(String type) {
       return noMetals;
     case "Halogens":
       return halogens;
+    case "Transition Metals":
+      return transitionMetals;
     default:
       return hidrogen;
   }

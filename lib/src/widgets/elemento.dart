@@ -63,6 +63,9 @@ class Elemento extends StatelessWidget {
             Text(
               widget,
               textAlign: TextAlign.center,
+              style: GoogleFonts.roboto().copyWith(
+                fontSize: 12,
+              ),
             ),
             const SizedBox(
               height: 5,
@@ -129,9 +132,7 @@ class _ElementoHeader extends StatelessWidget {
             child: Text(atomicSymbol),
           ),
           Row(
-            children: [
-              ...symbols             
-            ],
+            children: [...symbols],
           ),
           Padding(
             padding: const EdgeInsets.only(
