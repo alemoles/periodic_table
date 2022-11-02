@@ -67,7 +67,7 @@
             "widget": "Equipo deportivo",
             "imageURL": "assets/svgs/sports.svg",
             "symbolsURL": [
-                "assets/svgs/solid.svg"
+                "assets/svgs/black-large-square.svg"
             ],
             "descripcion": "Boro descripcion",
             "isRange": false,
@@ -82,7 +82,7 @@
             "widget": "Moleculas de la vida",
             "imageURL": "assets/svgs/bio.svg",
             "symbolsURL": [
-                "assets/svgs/solid.svg"
+                "assets/svgs/black-large-square.svg"
             ],
             "descripcion": "Carbon descripcion",
             "isRange": false,
@@ -225,7 +225,7 @@
             "widget": "Bones",
             "imageURL": "assets/svgs/bones.svg",
             "symbolsURL": [
-                "assets/svgs/solid.svg",
+                "assets/svgs/white-large-square.svg",
                 "assets/svgs/earth.svg"
             ],
             "descripcion": "Fósforo descripcion",
@@ -241,7 +241,7 @@
             "widget": "Huevos",
             "imageURL": "assets/svgs/eggs.svg",
             "symbolsURL": [
-                "assets/svgs/solid.svg"
+                "assets/svgs/yellow-square.svg"
             ],
             "descripcion": "Azufre descripcion",
             "isRange": false,
@@ -445,7 +445,7 @@
             "widget": "Cables electricos",
             "imageURL": "assets/svgs/electric-plug.svg",
             "symbolsURL": [
-                "assets/svgs/solid.svg"
+                "assets/svgs/orange-square.svg"
             ],
             "descripcion": "Cobre descripcion",
             "isRange": false,
