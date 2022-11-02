@@ -8,6 +8,7 @@ import 'package:periodic_table/src/utils/utils.dart';
 
 class DataLayout extends ChangeNotifier {
   final _elements = SplayTreeMap<int, List<RowData>>();
+  var _description = '';
 
   SplayTreeMap<int, List<RowData>> get elements => _elements;
 
@@ -26,6 +27,13 @@ class DataLayout extends ChangeNotifier {
         _elements.putIfAbsent(element.column, () => [element]);
       }
     }
+    notifyListeners();
+  }
+
+  String get description => _description;
+
+  set description(String value) {
+    _description = value;
     notifyListeners();
   }
 }

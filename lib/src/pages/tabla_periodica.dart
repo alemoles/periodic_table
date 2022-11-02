@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:periodic_table/src/models/data_layout.dart';
 import 'package:periodic_table/src/models/row_data.dart';
+import 'package:periodic_table/src/widgets/card_container.dart';
 import 'package:periodic_table/src/widgets/card_element.dart';
-import 'package:periodic_table/src/widgets/flip_card.dart';
 import 'package:provider/provider.dart';
 
 class TablaPeriodicaPage extends StatefulWidget {
@@ -13,7 +13,6 @@ class TablaPeriodicaPage extends StatefulWidget {
 }
 
 class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
-  final controller = FlipCardController();
   @override
   void initState() {
     super.initState();
@@ -25,7 +24,6 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
 
   List<Widget> buildData(Map<int, List<RowData>> elements) {
     final widgets = <Widget>[];
-
     for (MapEntry<int, List<RowData>> item in elements.entries) {
       widgets.add(
         Column(
@@ -33,7 +31,6 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
           children: item.value
               .map(
                 (element) => CardElement(
-                  controller: controller,
                   data: element,
                 ),
               )
@@ -47,16 +44,27 @@ class _TablaPeriodicaPageState extends State<TablaPeriodicaPage> {
   @override
   Widget build(BuildContext context) {
     final elements = Provider.of<DataLayout>(context).elements;
-    return Container(
-      child: elements.isNotEmpty
-          ? Row(
-              children: [
-                ...buildData(
-                  elements,
-                ),
-              ],
-            )
-          : const CircularProgressIndicator.adaptive(),
+    final description = Provider.of<DataLayout>(context).description;
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        CardContainer(
+          child: Text(
+            description,
+          ),
+        ),
+        Container(
+          child: elements.isNotEmpty
+              ? Row(
+                  children: [
+                    ...buildData(
+                      elements,
+                    ),
+                  ],
+                )
+              : const CircularProgressIndicator.adaptive(),
+        ),
+      ],
     );
   }
 }

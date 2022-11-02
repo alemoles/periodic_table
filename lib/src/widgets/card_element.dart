@@ -1,51 +1,61 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:periodic_table/src/models/data_layout.dart';
 import 'package:periodic_table/src/models/row_data.dart';
 import 'package:periodic_table/src/utils/utils.dart';
 import 'package:periodic_table/src/widgets/elemento.dart';
 import 'package:periodic_table/src/widgets/flip_card.dart';
+import 'package:provider/provider.dart';
 
-
-class CardElement extends StatelessWidget {
+class CardElement extends StatefulWidget {
   const CardElement({
     Key? key,
-    required this.controller,
     required this.data,
   }) : super(key: key);
 
-  final FlipCardController controller;
   final RowData data;
 
   @override
+  State<CardElement> createState() => _CardElementState();
+}
+
+class _CardElementState extends State<CardElement> {
+  bool isHover = false;
+
+  @override
   Widget build(BuildContext context) {
-    final symbols = data.symbolsUrl.map(
+    final symbols = widget.data.symbolsUrl.map(
       (url) => _Symbol(
         url: url,
       ),
     );
-    return GestureDetector(
-      onTap: () => controller.flipCard(),
-      child: FlipCardWidget(
-        controller: controller,
-        front: Elemento(
-          atomicNumber: data.atomicNumber,
-          atomicSymbol: data.atomicSymbol,
-          name: data.name,
-          widget: data.widget,
+    return AnimatedContainer(
+      duration: const Duration(
+        milliseconds: 200,
+      ),
+      padding: EdgeInsets.only(top: 0, bottom: !(isHover) ? 0 : 5),
+      child: InkWell(
+        onTap: () => print('Description'),
+        onHover: (value) {          
+          setState(() {
+            isHover = value;
+          });
+          Provider.of<DataLayout>(context, listen: false).description =
+              widget.data.descripcion;
+        },
+        child: Elemento(
+          atomicNumber: widget.data.atomicNumber,
+          atomicSymbol: widget.data.atomicSymbol,
+          name: widget.data.name,
+          widget: widget.data.widget,
           image: SvgPicture.asset(
-            data.imageUrl,
+            widget.data.imageUrl,
           ),
           symbols: [
             ...symbols,
           ],
           color: fromName(
-            data.type,
-          ),
-        ),
-        back: ElementBack(
-          descripcion: data.descripcion,
-          color: fromName(
-            data.type,
+            widget.data.type,
           ),
         ),
       ),
