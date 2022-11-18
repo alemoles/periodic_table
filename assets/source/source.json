@@ -557,6 +557,282 @@
             "isRadioactive": false,
             "type": "Noble Gases",
             "column": 18
+        },
+        {
+            "atomicNumber": 37,
+            "atomicSymbol": "Rb",
+            "name": "Rubidio",
+            "widget": "Navegación Global",
+            "imageURL": "assets/svgs/gps.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Rubidio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Alkali Metals",
+            "column": 1
+        },
+        {
+            "atomicNumber": 38,
+            "atomicSymbol": "Sr",
+            "name": "Estroncio",
+            "widget": "Fuegos artificiales",
+            "imageURL": "assets/svgs/fireworks.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"                
+            ],
+            "descripcion": "Estroncio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Alkali Earth Metals",
+            "column": 2
+        },
+        {
+            "atomicNumber": 39,
+            "atomicSymbol": "Y",
+            "name": "Itrio",
+            "widget": "Láser",
+            "imageURL": "assets/svgs/blaster-laser.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Itrio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 3
+        },
+        {
+            "atomicNumber": 40,
+            "atomicSymbol": "Zr",
+            "name": "Circonio",
+            "widget": "Tuberías químicas",
+            "imageURL": "assets/svgs/gas-pipe.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Circonio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 4
+        },
+        {
+            "atomicNumber": 41,
+            "atomicSymbol": "Nb",
+            "name": "Niobio",
+            "widget": "Trenes de levitación magnética",
+            "imageURL": "assets/svgs/monorail.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Niobio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 5
+        },
+        {
+            "atomicNumber": 42,
+            "atomicSymbol": "Mo",
+            "name": "Molibdeno",
+            "widget": "Herramientas de corte",
+            "imageURL": "assets/svgs/scissors-cutting.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Molibdeno descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 6
+        },
+        {
+            "atomicNumber": 43,
+            "atomicSymbol": "Tc",
+            "name": "Tecnecio",
+            "widget": "Diagnóstico radiactivo",
+            "imageURL": "assets/svgs/x-ray.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/radioactive.svg",
+                "assets/svgs/rare.svg"
+            ],
+            "descripcion": "Manganeso descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 7
+        },
+        {
+            "atomicNumber": 44,
+            "atomicSymbol": "Ru",
+            "name": "Rutenio",
+            "widget": "Interruptor eléctrico",
+            "imageURL": "assets/svgs/electricity.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Hierro descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 8
+        },
+        {
+            "atomicNumber": 45,
+            "atomicSymbol": "Rh",
+            "name": "Rodio",
+            "widget": "Reflectores",
+            "imageURL": "assets/svgs/light-house.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Rodio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 9
+        },
+        {
+            "atomicNumber": 46,
+            "atomicSymbol": "Pd",
+            "name": "Paladio",
+            "widget": "Control de polución",
+            "imageURL": "assets/svgs/gas-mask.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Paladio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 10
+        },
+        {
+            "atomicNumber": 47,
+            "atomicSymbol": "Ag",
+            "name": "Plata",
+            "widget": "Joyería",
+            "imageURL": "assets/svgs/earrings.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Plata descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 11
+        },
+        {
+            "atomicNumber": 48,
+            "atomicSymbol": "Cd",
+            "name": "Cadmio",
+            "widget": "Pintura",
+            "imageURL": "assets/svgs/paint.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Cadmio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 12
+        },
+        {
+            "atomicNumber": 49,
+            "atomicSymbol": "In",
+            "name": "Indo",
+            "widget": "LCDs",
+            "imageURL": "assets/svgs/laptop.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Galio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 13
+        },
+        {
+            "atomicNumber": 50,
+            "atomicSymbol": "Sn",
+            "name": "Estaño",
+            "widget": "Latas de comida plateadas",
+            "imageURL": "assets/svgs/can-soda.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Estaño descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 14
+        },
+        {
+            "atomicNumber": 51,
+            "atomicSymbol": "Sb",
+            "name": "Antimonio",
+            "widget": "Baterías de carros",
+            "imageURL": "assets/svgs/car-battery-solid.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Antimonio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 15
+        },
+        {
+            "atomicNumber": 52,
+            "atomicSymbol": "Te",
+            "name": "Telurio",
+            "widget": "Neveras",
+            "imageURL": "assets/svgs/minibar.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Telurio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Nonmetals",
+            "column": 16
+        },
+        {
+            "atomicNumber": 53,
+            "atomicSymbol": "I",
+            "name": "Yodo",
+            "widget": "Desinfectante",
+            "imageURL": "assets/svgs/desinfectant.svg",
+            "symbolsURL": [
+                "assets/svgs/solid-purple.svg"
+            ],
+            "descripcion": "Yodo descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Halogens",
+            "column": 17
+        },
+        {
+            "atomicNumber": 54,
+            "atomicSymbol": "Xe",
+            "name": "Xenon",
+            "widget": "Lámparas de alta intensidad",
+            "imageURL": "assets/svgs/lighthouse-lamps.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg"
+            ],
+            "descripcion": "Xenon descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Noble Gases",
+            "column": 18
         }
     ]
 }

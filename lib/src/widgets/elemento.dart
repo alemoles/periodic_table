@@ -42,7 +42,9 @@ class Elemento extends StatelessWidget {
             ),
             Text(
               name,
-              style: GoogleFonts.roboto(),
+              style: GoogleFonts.roboto().copyWith(
+                fontWeight: FontWeight.bold,
+              ),
             ),
             const SizedBox(
               height: 5,
