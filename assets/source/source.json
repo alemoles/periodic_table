@@ -833,6 +833,284 @@
             "isRadioactive": false,
             "type": "Noble Gases",
             "column": 18
+        },
+        {
+            "atomicNumber": 55,
+            "atomicSymbol": "Cs",
+            "name": "Cesio",
+            "widget": "Reloj Atómico",
+            "imageURL": "assets/svgs/atomic-science.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Cesio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Alkali Metals",
+            "column": 1
+        },
+        {
+            "atomicNumber": 56,
+            "atomicSymbol": "Ba",
+            "name": "Bario",
+            "widget": "Diagnóstico de Rayos X",
+            "imageURL": "assets/svgs/x-ray-skeleton.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"                
+            ],
+            "descripcion": "Bario descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Alkali Earth Metals",
+            "column": 2
+        },
+        {
+            "atomicNumber": 57,
+            "atomicSymbol": "",
+            "name": "Rare Earth Metals",
+            "widget": "",
+            "imageURL": "assets/svgs/blaster-laser.svg",
+            "symbolsURL": [],
+            "descripcion": "Rare Earth Metals descripcion",
+            "isRange": true,
+            "isRadioactive": false,
+            "type": "Rare Earth Metals",
+            "column": 3
+        },
+        {
+            "atomicNumber": 72,
+            "atomicSymbol": "Hf",
+            "name": "Hafnio",
+            "widget": "Submarinos nucleares",
+            "imageURL": "assets/svgs/submarine.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Hafnio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 4
+        },
+        {
+            "atomicNumber": 73,
+            "atomicSymbol": "Ta",
+            "name": "Tantalio",
+            "widget": "Celulares",
+            "imageURL": "assets/svgs/smartphone.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Tantalio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 5
+        },
+        {
+            "atomicNumber": 74,
+            "atomicSymbol": "W",
+            "name": "Tungsteno",
+            "widget": "Filamentos de lámparas",
+            "imageURL": "assets/svgs/desk-lamp-lamp.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Tungsteno descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 6
+        },
+        {
+            "atomicNumber": 75,
+            "atomicSymbol": "Re",
+            "name": "Renio",
+            "widget": "Motores de cohetes",
+            "imageURL": "assets/svgs/rocket-engine.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"               
+            ],
+            "descripcion": "Renio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 7
+        },
+        {
+            "atomicNumber": 76,
+            "atomicSymbol": "Os",
+            "name": "Osmio",
+            "widget": "Puntas de pluma",
+            "imageURL": "assets/svgs/pen-fountain-pen.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Osmio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 8
+        },
+        {
+            "atomicNumber": 77,
+            "atomicSymbol": "Ir",
+            "name": "Iridio",
+            "widget": "Bujías",
+            "imageURL": "assets/svgs/spark-repair.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Iridio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 9
+        },
+        {
+            "atomicNumber": 78,
+            "atomicSymbol": "Pt",
+            "name": "Platino",
+            "widget": "Material de laboratorio",
+            "imageURL": "assets/svgs/lab-medical-test.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Platino descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 10
+        },
+        {
+            "atomicNumber": 79,
+            "atomicSymbol": "Au",
+            "name": "Oro",
+            "widget": "Joyería",
+            "imageURL": "assets/svgs/crown.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/king.svg"
+            ],
+            "descripcion": "Plata descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 11
+        },
+        {
+            "atomicNumber": 80,
+            "atomicSymbol": "Hg",
+            "name": "Mercurio",
+            "widget": "Termómetros",
+            "imageURL": "assets/svgs/thermometer.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Mercurio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Transition Metals",
+            "column": 12
+        },        
+        {
+            "atomicNumber": 81,
+            "atomicSymbol": "Tl",
+            "name": "Talio",
+            "widget": "Termómetros de bajas temperaturas",
+            "imageURL": "assets/svgs/thermometer-cold.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Talio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 13
+        },
+        {
+            "atomicNumber": 82,
+            "atomicSymbol": "Pb",
+            "name": "Plomo",
+            "widget": "Pesas",
+            "imageURL": "assets/svgs/dumbbell-gym.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Pesas descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 13
+        },
+        {
+            "atomicNumber": 83,
+            "atomicSymbol": "Bi",
+            "name": "Bismuto",
+            "widget": "Rociadores contra incendios",
+            "imageURL": "assets/svgs/drop-water.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg"
+            ],
+            "descripcion": "Bismuto descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 14
+        },
+        {
+            "atomicNumber": 84,
+            "atomicSymbol": "Po",
+            "name": "Polonio",
+            "widget": "Cepillos antiestáticos",
+            "imageURL": "assets/svgs/paint-brush.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/radioactive.svg",
+                "assets/svgs/rare.svg"
+            ],
+            "descripcion": "Polonio descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Poor Metals",
+            "column": 15
+        },
+        {
+            "atomicNumber": 85,
+            "atomicSymbol": "At",
+            "name": "Astato",
+            "widget": "Medicina Radioactiva",
+            "imageURL": "assets/svgs/health-hospital-injection-medical-medicine-syringe.svg",
+            "symbolsURL": [
+                "assets/svgs/solid.svg",
+                "assets/svgs/radioactive.svg",
+                "assets/svgs/rare.svg"
+            ],
+            "descripcion": "Astato descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Halogens",
+            "column": 17
+        },
+        {
+            "atomicNumber": 86,
+            "atomicSymbol": "Rn",
+            "name": "Radon",
+            "widget": "Implantes quirúgicos",
+            "imageURL": "assets/svgs/hospital.svg",
+            "symbolsURL": [
+                "assets/svgs/cloud.svg",
+                "assets/svgs/radioactive.svg"
+
+            ],
+            "descripcion": "Radon descripcion",
+            "isRange": false,
+            "isRadioactive": false,
+            "type": "Noble Gases",
+            "column": 18
         }
     ]
 }
